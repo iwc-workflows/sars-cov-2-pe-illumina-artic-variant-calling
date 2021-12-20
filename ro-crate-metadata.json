@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-07-26T10:22:23.309483",
+            "datePublished": "2021-12-20T17:04:47.633738",
             "hasPart": [
                 {
                     "@id": "pe-artic-variation.ga"
@@ -42,7 +42,8 @@
                 {
                     "@id": "#test1"
                 }
-            ]
+            ],
+            "name": "sars-cov-2-pe-illumina-artic-variant-calling/COVID-19-PE-ARTIC-ILLUMINA"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -66,12 +67,12 @@
                     "@id": "https://orcid.org/0000-0002-9464-6640"
                 }
             ],
-            "name": "COVID-19: variation analysis on ARTIC PE data",
+            "name": "sars-cov-2-pe-illumina-artic-variant-calling/COVID-19-PE-ARTIC-ILLUMINA",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling",
-            "version": "0.4.1"
+            "version": "0.4.2"
         },
         {
             "@id": "#galaxy",
@@ -114,7 +115,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
@@ -137,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.6"
+            "engineVersion": ">=0.74.9"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
