@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-02-11T15:29:50.854615",
+            "datePublished": "2024-01-11T16:25:21.762853",
             "hasPart": [
                 {
                     "@id": "pe-artic-variation.ga"
@@ -30,7 +30,7 @@
                     "@id": "README.md"
                 },
                 {
-                    "@id": "pe-artic-variation-test.yml"
+                    "@id": "pe-artic-variation-tests.yml"
                 }
             ],
             "isBasedOn": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling",
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_COVID-19-PE-ARTIC-ILLUMINA_1"
                 }
             ],
             "name": "sars-cov-2-pe-illumina-artic-variant-calling/COVID-19-PE-ARTIC-ILLUMINA"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling",
-            "version": "0.5"
+            "version": "0.5.1"
         },
         {
             "@id": "#galaxy",
@@ -96,25 +96,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_COVID-19-PE-ARTIC-ILLUMINA_1",
             "@type": "TestSuite",
             "definition": {
-                "@id": "pe-artic-variation-test.yml"
+                "@id": "pe-artic-variation-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_COVID-19-PE-ARTIC-ILLUMINA_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "pe-artic-variation.ga"
             },
-            "name": "test1"
+            "name": "test_COVID-19-PE-ARTIC-ILLUMINA_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_COVID-19-PE-ARTIC-ILLUMINA_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_COVID-19-PE-ARTIC-ILLUMINA_1_1",
             "resource": "repos/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -130,7 +130,7 @@
             }
         },
         {
-            "@id": "pe-artic-variation-test.yml",
+            "@id": "pe-artic-variation-tests.yml",
             "@type": [
                 "File",
                 "TestDefinition"
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.9"
+            "engineVersion": ">=0.75.19"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
