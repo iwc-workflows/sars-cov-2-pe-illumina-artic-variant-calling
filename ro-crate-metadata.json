@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2026-10-20T16:47:45.895193",
+            "datePublished": "2026-11-03T15:24:35.617828",
             "hasPart": [
                 {
                     "@id": "pe-artic-variation.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling",
-            "version": "0.5.7"
+            "version": "0.5.8"
         },
         {
             "@id": "#galaxy",
